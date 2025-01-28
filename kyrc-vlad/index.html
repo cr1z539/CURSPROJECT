@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Asca</title>
+</head>
+<body>
+    <link rel="stylesheet" href="/style.css">
+<header class="header">
+    <div class="header_logo">
+        <img class="logo" src="/img/logo.jpg" alt="">
+       <a class="link" href="index.html"><h2 class="sub_cod"><span class="cod">Asca</span> <br>
+        Автосалон
+    </h2></a> 
+        
+    </div>
+    <div class="navbar">
+        <div class="burger-menu">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+    <ul class="list">
+        <a class="list_link" href="#"><li class="list_item">Главная</li></a>
+        <a class="list_link" href="/services.html"><li class="list_item">Услуги</li></a>
+        <a class="list_link" href="/contact.html"><li class="list_item">Контакты </li></a>
+        <a class="list_link" href="/about_as.html"><li class="list_item">О нас</li></a>
+        <div class="number">
+            <img class="nomer_img" src="/img/tel.png" alt="" class="number_img">
+            <a class="nomer" href="tel:+7 4922 60-01-01">+7 4922 60-01-01</a>
+    
+        </div>
+    </ul>
+  
+   
+</header>
+    <div class="title_zone">
+        <div class="title_text">"Автосалон"Asca" - это идеальное место для покупки авто. Машины разных ценовых категорий и видов, а также 5 лет гарантия на авто     </div>
+        <button class="connection_btn">Связаться с нами</button>
+    </div>
+    <div class="galery_text">
+        <h2 class="textgal">
+            Примеры авто
+        </h2>
+    </div>
+    <div class="galery">
+        <img src="/img/galery 1.png" alt="" class="galery_img">
+        <img src="/img/galery 2.png" alt="" class="galery_img">
+        <img src="/img/galery 3.png" alt="" class="galery_img">
+    </div>
+    <div class="calculation">
+        <div class="calculation_title">Рассчитайте оплату</div>
+        <div class="calculation_subtitle">Кредитный калькулятор поможет подобрать выгодные условия</div>
+        <div class="calculation_rectangle">
+            <div class="left_wrap">
+            <div class="calc_form">
+                <div class="calc_text">CТОИМОСТЬ АВТО, ₽
+                </div>   
+                <input id="price" type="number">
+            </div>
+            <div class="calc_form2">
+                <div class="calc_text2">ПЕРВОНАЧАЛЬНЫЙ ВЗНОС, ₽</div>   
+                <input id="new2" type="number">
+            </div>
+        </div>
+        <div class="right_wrap">
+            <div class="calc_form3">
+                <div class="calc_text3">ПРОЦЕНТНАЯ СТАВКА, %</div>   
+                <input id="percent" type="number">
+            </div><div class="calc_form4">
+                <div class="calc_text4">СРОК КРЕДИТА, ЛЕТ</div>   
+                <input id="years" type="number">
+            </div>
+        </div>
+        <div class="all">
+            <div class="all_text">ЕЖЕМЕСЯЧНЫЙ ПЛАТЕЖ </div>
+            <input id="allIn" type="number">
+            <button class="all_btn">Рассчитать</button>
+        </div>
+        </div>
+    </div>
+    <form id="feedBack">
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <h3 class="form_title">связаться с нами</h3>
+                <input id="name" type="text" placeholder="Ваше имя">
+                <input id="email" type="email" placeholder="Ваш Email">
+                <input id="number" type="number" placeholder="Номер телефона">
+                <button class="modal_btn">Связаться</button>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+<script src="app.js"></script>
+<script src="burger.js"></script>
+</html>
