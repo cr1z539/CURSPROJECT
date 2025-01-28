@@ -44,7 +44,9 @@ ul {
 .link {
     text-decoration: none;
 }
-
+.galery_img{
+    flex-grow: 1;
+}
 .logo {
     width: 118px;
     height: 98px;
