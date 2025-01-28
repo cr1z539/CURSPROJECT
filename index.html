@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Asca</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="header_logo">
+        <img class="logo" src="img/logo.jpg" alt="">
+        <a class="link" href="index.html">
+            <h2 class="sub_cod"><span class="cod">Asca</span><br>Автосалон</h2>
+        </a>
+    </div>
+    <div class="navbar">
+        <div class="burger-menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="list">
+            <a class="list_link" href="index.html"><li class="list_item">Главная</li></a>
+            <a class="list_link" href="services.html"><li class="list_item">Услуги</li></a>
+            <a class="list_link" href="contact.html"><li class="list_item">Контакты</li></a>
+            <a class="list_link" href="about_as.html"><li class="list_item">О нас</li></a>
+            <div class="number">
+                <img class="nomer_img" src="img/tel.png" alt="">
+                <a class="nomer" href="tel:+7 4922 60-01-01">+7 4922 60-01-01</a>
+            </div>
+        </ul>
+    </div>
+</header>
+
+<div class="title_zone">
+    <div class="title_text">
+        "Автосалон Asca" - это идеальное место для покупки авто. Машины разных ценовых категорий и видов, а также 5 лет гарантия на авто.
+    </div>
+    <button class="connection_btn">Связаться с нами</button>
+</div>
+
+<div class="galery_text">
+    <h2 class="textgal">Примеры авто</h2>
+</div>
+<div class="galery">
+    <img src="img/galery1.png" alt="" class="galery_img">
+    <img src="img/galery2.png" alt="" class="galery_img">
+    <img src="img/galery3.png" alt="" class="galery_img">
+</div>
+
+<form id="feedBack">
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <h3 class="form_title">Связаться с нами</h3>
+            <input id="name" type="text" placeholder="Ваше имя">
+            <input id="email" type="email" placeholder="Ваш Email">
+            <input id="number" type="number" placeholder="Номер телефона">
+            <button class="modal_btn">Связаться</button>
+        </div>
+    </div>
+</form>
+
+<script src="js/app.js"></script>
+<script src="js/burger.js"></script>
+
+</body>
+</html>
